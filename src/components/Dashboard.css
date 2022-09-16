@@ -1,0 +1,169 @@
+
+
+
+body{
+    background: #e7e7e7;
+}
+
+.wrapper .sidebar{
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+.wrapper .sidebar ul li a{
+    display: block;
+    padding: 13px 30px;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+    margin-left: -16px;
+
+}
+.wrapper .sidebar ul{
+    list-style: none !important;
+}
+.item{
+    font-size: 10px;
+    margin-left: -16px;
+    color: gray;
+    padding-top: 10px;
+}
+ .icon{
+    color: black;
+    margin-left: -8px;
+    display: inline-block;
+}
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+    background:#F4EA56;
+    width: 30px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon{
+    color: #0c7db1;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before{
+    display: block;
+}
+
+.bitamite-logo{
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: black;
+    color:#F4EA56;
+    margin-left: -12px;
+}
+.binamite-header{
+    padding-left: 17px;
+    padding-top: 4px;
+}
+
+.sidebar{
+    display: flex;
+    justify-content:space-between !important;
+}
+.pro-container{
+    padding: 30px 10px;
+    display: grid;
+    grid-gap:20px;
+    grid-template-rows: 150px 150px 100px 100px;
+    grid-template-columns: 600px 400px;
+}
+.profile{
+    grid-column:1/ span 1;
+    grid-row:1/span 2;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 15px;
+}
+.location{
+    grid-column:1/ span 1;
+ grid-row: 3 /span 2;
+    padding: 20px 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+.profile-head{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-angle-up{
+    color:indigo;
+}
+.item2{
+    font-size: 12px;
+    color:indigo;
+}
+.profile-header{
+    font-size: 20px;
+    font-weight: 700;
+}
+.profile-inner{
+    display: flex;
+    padding-top: 5px;
+    column-gap: 20px
+}
+.image{
+
+    width:80px;
+    border-radius: 100%;
+}
+.label{
+    font-size: 10px;
+    color: gray;
+    margin-top: -10px;
+}
+.label2{
+    font-size: 13px;
+    color: black;
+    margin-top: -10px;
+}
+.inner-exp{
+    display:flex;
+    column-gap: 10px;
+}
+.label3{
+    font-size: 10px;
+    background-color: #f0f0f0;
+    padding: 0px 5px;
+    border-radius: 6px;
+}
+.tax{
+    padding: 20px 15px;
+    grid-column:2/ span 1;
+    grid-row:1;
+    background-color: white;
+    border-radius: 10px;
+}
+.gstin{
+    padding: 20px 15px;
+    grid-column:2/ span 1;
+    grid-row:2;
+    background-color: white;
+    border-radius: 10px;
+}
+.w-8ben{
+    padding: 20px 15px;
+    grid-column:2/ span 1;
+    grid-row:3;
+    background-color: white;
+    border-radius: 10px;
+}
+.w-9{
+    padding: 20px 15px;
+    grid-column:2/ span 1;
+    grid-row:4;
+    background-color: white;
+    border-radius: 10px;
+}

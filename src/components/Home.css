@@ -1,0 +1,35 @@
+.home-container{
+    background-color: black;
+    height:800px;
+    position: relative;
+
+}
+.form-container{
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 100px;
+}
+.sign-in-input{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+::placeholder { 
+    color: grey;
+    font-size: 13px;
+  }
+.form-pre-header{
+    color:grey;
+    font-size: 12px;
+    font-weight: 600;
+}
+.form-header{
+    font-size: 34px;
+    font-weight: 700;
+}
+.btn-dark{
+    margin-top: 10px;
+    border-radius: 6px;
+}
